@@ -19,5 +19,3 @@ The system combines **embedded hardware**, **IoT communication**, and **full-sta
 
 ---
 
-## 🏗️ System Architecture# smart-irrigation-system
-Smart Irrigation System using Node.js, Express, HTML, CSS, JavaScript, and Arduino.
