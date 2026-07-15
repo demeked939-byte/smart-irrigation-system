@@ -1,3 +1,21 @@
+# Environment files (secrets)
 backend.env
+.env
+
+# Node dependencies
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# OS files
+.DS_Storebackend.env
 node_modules/
 
