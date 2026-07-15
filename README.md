@@ -19,3 +19,145 @@ The system combines **embedded hardware**, **IoT communication**, and **full-sta
 
 ---
 
+## 🏗️ System Architecture
+
+```text
+Sensors
+   |
+   ↓
+Arduino Controller
+   |
+   ↓
+Node.js + Express Backend
+   |
+   ↓
+MongoDB Database
+   |
+   ↓
+React Web Dashboard
+```
+
+---
+
+## 🔧 Hardware Components
+
+- Arduino board
+- Soil moisture sensor
+- DHT11 temperature and humidity sensor
+- Rain sensor
+- Relay module
+- Water pump
+- Power supply
+
+---
+
+## 💻 Software Technologies
+
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- REST API
+
+### Embedded System
+- Arduino C/C++
+- Sensor interfacing
+
+---
+
+## 📂 Project Structure
+
+```text
+smart-irrigation-system/
+
+├── backend/
+│   ├── server.js
+│   ├── models/
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+Create your own environment file:
+
+```text
+backend.env
+```
+
+Example:
+
+```env
+MONGO_URI=your_database_connection
+PORT=5000
+```
+
+---
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of your project here:
+
+```text
+screenshots/
+
+├── dashboard.png
+├── hardware.png
+└── simulation.png
+```
+
+---
+
+## 🚀 Future Improvements
+
+- Mobile application support
+- Real-time IoT cloud monitoring
+- Weather API integration
+- Machine learning based irrigation prediction
+- Solar-powered operation
+
+---
+
+## 👨‍💻 Author
+
+**demeked939-byte**
+
+Electrical & Computer Engineering Graduate
+
+Interested in:
+- IoT Systems
+- Embedded Systems
+- Web Development
+- Automation
