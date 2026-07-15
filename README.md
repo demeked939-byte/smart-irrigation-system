@@ -128,16 +128,9 @@ npm start
 
 ## 📸 Screenshots
 
-Add screenshots of your project here:
+### Web Dashboard
 
-```text
-screenshots/
-
-├── dashboard.png
-├── hardware.png
-└── simulation.png
-```
-
+![Dashboard](screenshots/dashboard.png)
 ---
 
 ## 🚀 Future Improvements
